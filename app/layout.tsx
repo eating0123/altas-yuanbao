@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://unfinished-atlas-yuanbao.wyiting0123.chatgpt.site"),
   title: "未完地图｜元宝时空记忆 Agent",
   description:
     "地图记得你在哪里停下，元宝知道接下来做什么。一个会在重返旧地时主动续上未完心愿的时空记忆 Agent。",
@@ -23,14 +24,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "未完地图｜元宝时空记忆 Agent",
     description: "回到一个地方，也续上那时未完成的自己。",
-    images: ["/og.png"],
+    images: ["/og-product.png"],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "未完地图｜元宝时空记忆 Agent",
     description: "地图记得你在哪里停下，元宝知道接下来做什么。",
-    images: ["/og.png"],
+    images: ["/og-product.png"],
   },
 };
 
