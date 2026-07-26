@@ -1751,45 +1751,12 @@ footer > button { justify-self: end; border: 0; background: transparent; color: 
 }
 
 .product-logo-mark {
-  position: relative;
   width: 34px;
   height: 34px;
   flex: 0 0 34px;
-  border: 2px solid var(--forest);
   border-radius: 50%;
-}
-
-.product-logo-mark::before,
-.product-logo-mark i,
-.product-logo-mark b {
-  position: absolute;
-  content: "";
-  border-radius: 50%;
-}
-
-.product-logo-mark::before {
-  width: 8px;
-  height: 8px;
-  left: 11px;
-  top: 11px;
-  background: var(--mint);
-  box-shadow: 0 0 0 5px rgba(0, 208, 101, 0.13);
-}
-
-.product-logo-mark i {
-  width: 5px;
-  height: 5px;
-  right: -2px;
-  top: 1px;
-  background: var(--mint);
-}
-
-.product-logo-mark b {
-  width: 4px;
-  height: 4px;
-  left: 1px;
-  bottom: 4px;
-  background: var(--forest);
+  object-fit: cover;
+  box-shadow: 0 6px 16px rgba(0, 208, 101, 0.16);
 }
 
 .product-brand > span:last-child,
@@ -1835,8 +1802,11 @@ footer > button { justify-self: end; border: 0; background: transparent; color: 
   border-radius: 9px;
   color: #6b8074;
   background: #f8fbf7;
-  font-size: 10px;
-  font-weight: 800;
+}
+
+.product-nav a > span svg {
+  width: 16px;
+  height: 16px;
 }
 
 .product-nav a.active {
@@ -1848,6 +1818,10 @@ footer > button { justify-self: end; border: 0; background: transparent; color: 
   border-color: var(--mint);
   color: var(--forest);
   background: var(--mint);
+}
+
+.product-nav a.active > span svg {
+  stroke: #003d20;
 }
 
 .nav-live-dot {
@@ -2142,26 +2116,13 @@ footer > button { justify-self: end; border: 0; background: transparent; color: 
 .custom-turn { margin-top: 28px; }
 .user-row { justify-content: flex-end; }
 .yuanbao-avatar {
-  position: relative;
   width: 34px;
   height: 34px;
   flex: 0 0 34px;
-  border-radius: 12px;
-  background: var(--forest);
-  box-shadow: 0 8px 20px rgba(0, 77, 38, 0.16);
-}
-
-.yuanbao-avatar::before,
-.yuanbao-avatar i,
-.yuanbao-avatar b {
-  position: absolute;
-  content: "";
   border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 208, 101, 0.18);
 }
-
-.yuanbao-avatar::before { width: 14px; height: 14px; left: 10px; top: 10px; border: 1px solid var(--mint); }
-.yuanbao-avatar i { width: 5px; height: 5px; left: 15px; top: 15px; background: var(--mint); }
-.yuanbao-avatar b { width: 4px; height: 4px; right: 5px; top: 5px; background: var(--mint); }
 
 .message-stack {
   width: min(690px, calc(100% - 45px));

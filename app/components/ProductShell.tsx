@@ -3,20 +3,18 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
+import { Clock3, Map, Settings2, StickyNote } from "lucide-react";
 
 const navItems = [
-  { href: "/", label: "此刻", icon: "今" },
-  { href: "/map", label: "时间地图", icon: "图" },
-  { href: "/memories", label: "记忆库", icon: "忆" },
-  { href: "/settings", label: "设置", icon: "设" },
+  { href: "/", label: "此刻", Icon: Clock3 },
+  { href: "/map", label: "时间地图", Icon: Map },
+  { href: "/memories", label: "记忆库", Icon: StickyNote },
+  { href: "/settings", label: "设置", Icon: Settings2 },
 ];
 
 function LogoMark() {
   return (
-    <span className="product-logo-mark" aria-hidden="true">
-      <i />
-      <b />
-    </span>
+    <img className="product-logo-mark" src="/yuanbao-logo.png" alt="" aria-hidden="true" />
   );
 }
 
@@ -56,7 +54,7 @@ export default function ProductShell({
               href={item.href}
               className={isActive(item.href) ? "active" : ""}
             >
-              <span>{item.icon}</span>
+              <span><item.Icon aria-hidden="true" strokeWidth={1.9} /></span>
               <strong>{item.label}</strong>
               {item.href === "/" && <i className="nav-live-dot" />}
             </Link>
@@ -108,7 +106,7 @@ export default function ProductShell({
             href={item.href}
             className={isActive(item.href) ? "active" : ""}
           >
-            <span>{item.icon}</span>
+            <span><item.Icon aria-hidden="true" strokeWidth={1.9} /></span>
             <small>{item.label}</small>
           </Link>
         ))}

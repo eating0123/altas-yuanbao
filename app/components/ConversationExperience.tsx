@@ -9,10 +9,7 @@ type CustomTurn = { id: number; user: string; assistant: string };
 
 function YuanbaoAvatar() {
   return (
-    <span className="yuanbao-avatar" aria-label="元宝">
-      <i />
-      <b />
-    </span>
+    <img className="yuanbao-avatar" src="/yuanbao-logo.png" alt="元宝" />
   );
 }
 
