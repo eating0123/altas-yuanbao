@@ -1857,8 +1857,8 @@ footer > button { justify-self: end; border: 0; background: transparent; color: 
   font-size: 12px;
 }
 
-.about-entry strong { font-size: 10px; }
-.about-entry small { color: #7c8e84; font-size: 8px; }
+.about-entry strong { font-size: 12px; }
+.about-entry small { color: #7c8e84; font-size: 10px; }
 
 .sidebar-privacy {
   padding: 12px 10px;
@@ -1876,8 +1876,8 @@ footer > button { justify-self: end; border: 0; background: transparent; color: 
   background: var(--mint);
 }
 
-.sidebar-privacy strong { font-size: 9px; }
-.sidebar-privacy small { color: #8a9890; font-size: 8px; }
+.sidebar-privacy strong { font-size: 11px; }
+.sidebar-privacy small { color: #8a9890; font-size: 10px; }
 
 .product-user {
   min-height: 60px;
@@ -1899,8 +1899,8 @@ footer > button { justify-self: end; border: 0; background: transparent; color: 
 }
 
 .user-avatar { width: 34px; height: 34px; font-size: 10px; }
-.product-user strong { font-size: 9px; }
-.product-user small { color: #8c9991; font-size: 8px; }
+.product-user strong { font-size: 11px; }
+.product-user small { color: #8c9991; font-size: 10px; }
 .product-user > b { color: #8f9c95; font-size: 11px; }
 
 .product-workspace {
@@ -2309,28 +2309,28 @@ footer > button { justify-self: end; border: 0; background: transparent; color: 
 .context-close { display: none; }
 .context-heading { padding: 0 2px 19px; display: grid; grid-template-columns: 8px 1fr auto; align-items: center; gap: 10px; border-bottom: 1px solid var(--line); }
 .context-live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--mint); box-shadow: 0 0 0 5px rgba(0, 208, 101, 0.1); }
-.context-heading small { color: #85958c; font-size: 7px; }
-.context-heading strong { font-size: 11px; }
-.context-heading > b { padding: 5px 7px; border-radius: 999px; color: var(--mint-deep); background: var(--paper-deep); font-size: 8px; }
+.context-heading small { color: #85958c; font-size: 9px; }
+.context-heading strong { font-size: 13px; }
+.context-heading > b { padding: 5px 7px; border-radius: 999px; color: var(--mint-deep); background: var(--paper-deep); font-size: 10px; }
 .context-card,
 .context-inference,
 .context-memory { margin-top: 11px; padding: 14px; border: 1px solid var(--line); border-radius: 15px; background: var(--white); }
 .context-card > small,
-.context-inference > small { display: block; margin-bottom: 10px; color: #829288; font-size: 7px; font-weight: 800; letter-spacing: 0.08em; }
-.context-card p { margin: 7px 0; display: grid; grid-template-columns: 18px 1fr; align-items: center; gap: 7px; color: #5f7468; font-size: 8px; }
+.context-inference > small { display: block; margin-bottom: 10px; color: #829288; font-size: 9px; font-weight: 800; letter-spacing: 0.08em; }
+.context-card p { margin: 7px 0; display: grid; grid-template-columns: 18px 1fr; align-items: center; gap: 7px; color: #5f7468; font-size: 10px; }
 .context-card p span { width: 17px; height: 17px; display: grid; place-items: center; border-radius: 50%; color: var(--forest); background: var(--paper-deep); font-size: 7px; font-weight: 900; }
 .current-context-card p span { background: var(--mint); }
 .context-inference { border: 0; background: var(--forest); color: var(--white); }
 .context-inference > small { color: var(--mint); }
-.context-inference p { margin: 0; color: rgba(255, 255, 255, 0.76); font-size: 9px; line-height: 1.65; }
+.context-inference p { margin: 0; color: rgba(255, 255, 255, 0.76); font-size: 11px; line-height: 1.65; }
 .context-memory > div:first-child { display: flex; align-items: center; gap: 9px; }
 .context-memory > div:first-child > span { width: 35px; height: 35px; display: grid; place-items: center; border-radius: 10px; color: var(--forest); background: var(--mint-soft); font-size: 9px; font-weight: 800; }
 .context-memory > div:first-child > div { display: flex; flex-direction: column; gap: 2px; }
-.context-memory small { color: #8a9890; font-size: 7px; }
-.context-memory strong { font-size: 9px; }
-.context-memory > p { margin: 13px 0; color: #5f7468; font-size: 9px; font-weight: 700; line-height: 1.55; }
-.context-memory-foot { padding-top: 10px; display: flex; gap: 10px; border-top: 1px solid var(--line); color: #87968e; font-size: 7px; }
-.context-control { margin-top: 13px; padding: 11px 3px; display: flex; justify-content: space-between; gap: 8px; color: #84938b; font-size: 7px; }
+.context-memory small { color: #8a9890; font-size: 9px; }
+.context-memory strong { font-size: 11px; }
+.context-memory > p { margin: 13px 0; color: #5f7468; font-size: 11px; font-weight: 700; line-height: 1.55; }
+.context-memory-foot { padding-top: 10px; display: flex; gap: 10px; border-top: 1px solid var(--line); color: #87968e; font-size: 9px; }
+.context-control { margin-top: 13px; padding: 11px 3px; display: flex; justify-content: space-between; gap: 8px; color: #84938b; font-size: 9px; }
 .context-control strong { color: var(--mint-deep); }
 .context-scrim { display: none; }
 
